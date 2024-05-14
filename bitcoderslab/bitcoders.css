@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+span{
+    color: rgb(3, 164, 237);
+}
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+
+}
+.logo >img{
+    width:140px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 30px;
+    list-style: none;
+}
+ul li a:hover{
+    color: rgb(3, 164, 237);
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* left and right of hero section */
+#hero{
+    display: flex;
+}
+.left{
+    width: 40vw;
+    height: 60vh;
+    margin-top: 100px;
+    border: 2px solid black;
+
+}
+h1{
+    font-size: 3rem;
+}
+.left p {
+    font-size: 1.4rem;
+}
+.left button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(3, 164, 237);
+    font-size: 20px;
+    padding: auto;
+    margin-top: 20px;
+}
+.left button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.right{
+    width: 40vw;
+}
+.right-img>img{
+    width: 38vw;
+}
+
+
+/* CEO MESSAGE */
+
+.ceo-message{
+    display: flex;
+}
+.message-left{
+    width: 70vw;
+}
+.message-left p{
+    font-size: 1.4rem;
+}
+.message-right{
+    width: 30vw;
+    margin-right: 10vw;
+
+}
+.message-right >img{
+    width: 25vw;
+}
+
+.skills-heading img{
+    width: 20px;
+}
+
+
+/* services section */
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.box{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: rgb(30, 17, 43);
+    background: rgb(3, 25, 35);
+    
+}
+.box h2{
+    font-size: 1.9rem;
+    color: rgb(3, 164, 237);;
+}
+.box >p{
+    font-size: 1.3rem;
+}
+.box >a{
+    border-radius: 50px;
+    padding: 20px 25px;
+    
+   color: rgb(3, 164, 237);
+}
+
+
+
+
+
+/* client section */
+.client{
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.client-descrip>img{
+    width: 700px;
+}
+.client-descrip{
+    display: flex;
+    align-items: center;
+}
+.client-descrip p{
+    font-size: 1.5rem;
+}
+.client-heading h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgb(3, 164, 237);
+}
+
+
+
+/* mission */
+.mission img , p{
+    /* display: inline-block; */
+}
+.mission{
+    margin-top: 20px;
+}
+h6{
+
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+.sec-para{
+    display: flex;
+}
+
+
+
+/* about */
+#about{
+    border: 3px solid rgb(0, 165, 233);
+    background: rgb(3, 25, 35);
+    width: 80vw;
+    padding: 30px;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about>h6{
+    width: 60%;
+}
+#about button{
+    background: rgb(3, 25, 35);
+    border: 1px solid rgb(0, 165, 233);
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 260px;
+}
+
+
+
+
+
+
+
+/* trainings boxes */
+.trainings{
+    margin-top: 30px;
+}
+.trainings-box{
+    width: 50%;
+}
+.trainings-box >img{
+    width: 90%;
+}
+.trainings-box>p{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+
+}
+.choose{
+    position: relative;
+    top: 30px;
+}
+.choose p{
+    font-size: 1.3rem;
+
+}
+
+.choose-items{
+    width: 800px;
+    height: 200px;
+    display: flex;
+}
+
+.item{
+    width: 400px;
+    height: 100px;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.technologies{
+    margin-top: 40px;
+    width: 80vw;
+}
+.tech-skills ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.tech-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* blog section */
+
+.blog{
+    margin-top: 30px;
+}
+
+.blog-boxes{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-box h2{
+    
+    color: rgb(3, 164, 237);
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(3, 25, 35);
+}
+.foot{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.labs{
+    
+    line-height: 20px;
+    width: 300px;
+    font-size: 1.3rem;
+}
+.labs>h2{
+    margin: 20px 0px 20px 0px;
+}
+.links >h2{
+    margin: 20px 0px 20px 0px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.links li{
+    list-style: none;
+}
+#contact h2{
+    margin: 20px 0px 20px 0px;
+}
+
+/* UTILITY CLASSES */
+.margin-left{
+    margin-left: 10vw;
+}
+.margin-right{
+    margin-right: 10vw;
+}
+
+
